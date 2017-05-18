@@ -12,7 +12,12 @@ namespace LP3_music_List_android
             base.OnCreate(bundle);
 
             // Set our view from the "main" layout resource
-            // SetContentView (Resource.Layout.Main);
+            SetContentView (Resource.Layout.Main);
+
+            Button fetchList = this.FindViewById<Button>(Resource.Id.FetchListButton);
+
+
+          
         }
     }
 }
